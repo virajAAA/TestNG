@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNg Prototype" >
+
+  <test name="TestNg Features" >
+    <classes>
+       <class name="BasicNg.DemoTestng" />
+       <class name="BasicNg.ExceptionTimeoutTest" />
+       <class name="BasicNg.GoogleTest" />
+       <class name="BasicNg.GoogleTitleTest" />
+       <class name="BasicNg.InvocationCount" />
+       <class name="BasicNg.TestNgFeatures" />
+     
+    </classes>
+  </test>
+
+</suite>
