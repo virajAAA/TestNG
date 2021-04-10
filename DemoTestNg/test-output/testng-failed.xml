@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestNg Prototype]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="TestNg Features(failed)">
+<suite name="Failed suite [Yahoo App test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Pass parameter using Xml file (failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="emailId" value="vi@yahoo.com"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
     <classes>
-      <class name="BasicNg.TestNgFeatures">
+      <class name="com.ParameterTest.PrameterTest">
         <methods>
-          <include name="ProfileTest"/>
-          <include name="LoginTest"/>
-          <include name="AboutusTest"/>
-          <include name="HomePageTest"/>
+          <include name="yahooLoginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- BasicNg.TestNgFeatures -->
-      <class name="BasicNg.GoogleTitleTest">
-        <methods>
-          <include name="googleTitleTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- BasicNg.GoogleTitleTest -->
-      <class name="BasicNg.GoogleTest">
-        <methods>
-          <include name="googleLogoTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- BasicNg.GoogleTest -->
+      </class> <!-- com.ParameterTest.PrameterTest -->
     </classes>
-  </test> <!-- TestNg Features(failed) -->
-</suite> <!-- Failed suite [TestNg Prototype] -->
+  </test> <!-- Pass parameter using Xml file (failed) -->
+</suite> <!-- Failed suite [Yahoo App test] -->

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BasicNg.GoogleTitleTest">
+      <class name="com.ParameterTest.PrameterTest">
         <methods>
-          <include name="googleTitleTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="yahooLoginTest"/>
         </methods>
-      </class> <!-- BasicNg.GoogleTitleTest -->
+      </class> <!-- com.ParameterTest.PrameterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

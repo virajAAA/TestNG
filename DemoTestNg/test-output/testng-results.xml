@@ -1,73 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-07T16:47:02 IST" name="Default suite" finished-at="2021-04-07T16:47:02 IST" duration-ms="81">
+  <suite started-at="2021-04-10T07:58:33 IST" name="Default suite" finished-at="2021-04-10T07:58:56 IST" duration-ms="22430">
     <groups>
     </groups>
-    <test started-at="2021-04-07T16:47:02 IST" name="Default test" finished-at="2021-04-07T16:47:02 IST" duration-ms="81">
-      <class name="BasicNg.DemoTestng">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="setUp" finished-at="2021-04-07T16:47:02 IST" duration-ms="48" status="PASS">
+    <test started-at="2021-04-10T07:58:33 IST" name="Default test" finished-at="2021-04-10T07:58:56 IST" duration-ms="22430">
+      <class name="com.DataDriven.EbayTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.DataDriven.EbayTest@355ce81c]" started-at="2021-04-10T07:58:33 IST" name="setUp" finished-at="2021-04-10T07:58:53 IST" duration-ms="19922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="launchBrowser" finished-at="2021-04-07T16:47:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="ebayRegistrationPage()[pri:0, instance:com.DataDriven.EbayTest@355ce81c]" started-at="2021-04-10T07:58:53 IST" name="ebayRegistrationPage" finished-at="2021-04-10T07:58:53 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="login" finished-at="2021-04-07T16:47:02 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- ebayRegistrationPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataDriven.EbayTest@355ce81c]" started-at="2021-04-10T07:58:53 IST" name="tearDown" finished-at="2021-04-10T07:58:56 IST" duration-ms="2426" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="enterURL" finished-at="2021-04-07T16:47:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method signature="GoogleLogoTest()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="GoogleLogoTest" finished-at="2021-04-07T16:47:02 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GoogleLogoTest -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="logOut" finished-at="2021-04-07T16:47:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method signature="SearchTest()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="SearchTest" finished-at="2021-04-07T16:47:02 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="enterURL" finished-at="2021-04-07T16:47:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="logOut" finished-at="2021-04-07T16:47:02 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="enterURL()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="enterURL" finished-at="2021-04-07T16:47:02 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterURL -->
-        <test-method signature="googleTitleTest()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="googleTitleTest" finished-at="2021-04-07T16:47:02 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleTitleTest -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="logOut" finished-at="2021-04-07T16:47:02 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="closeBrowser" finished-at="2021-04-07T16:47:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="deleteAllCookies()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:02 IST" name="deleteAllCookies" finished-at="2021-04-07T16:47:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAllCookies -->
-        <test-method is-config="true" signature="generateTestReport()[pri:0, instance:BasicNg.DemoTestng@1356d4d4]" started-at="2021-04-07T16:47:03 IST" name="generateTestReport" finished-at="2021-04-07T16:47:03 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateTestReport -->
-      </class> <!-- BasicNg.DemoTestng -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataDriven.EbayTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
