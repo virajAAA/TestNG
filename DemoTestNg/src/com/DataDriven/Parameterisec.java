@@ -30,6 +30,12 @@ public class Parameterisec {
 		 int Rowcount =  reader.getRowCount("RegTest");
 		 
 		
+		 //Add coloum metho
+		 
+		   reader.addColumn("RegTest", "Status");
+		 
+		 
+		 
 		 //Parameterization
 		 for(int rowNum = 2; rowNum<=Rowcount; rowNum++)
 		 {
@@ -46,6 +52,10 @@ public class Parameterisec {
 			 
 			 driver.findElement(By.xpath("//*[@id=\"lastName\"]")).clear();
 			 driver.findElement(By.xpath("//*[@id=\"lastName\"]")).sendKeys(lastName);
+			 
+			 
+			 //write the data into excel
+			 reader.setCellData("RegTEst", "Status", rowNum, "Pass");
 			
 		 } 
 		 
